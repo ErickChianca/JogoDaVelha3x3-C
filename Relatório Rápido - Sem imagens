@@ -15,7 +15,9 @@ As regras são:
 3-	Uma partida na qual, todas as posições estão preenchidas e não há um vencedor, significa empate, o famoso "Deu Velha"
 
 Descrição Geral:
-O programa começa perguntando o nome dos dois jogadores, seus nomes, pontuações e a marca (símbolo X ou O) de cada jogador vai ser atribuída ao Struct Jogador
+O código começa com um Struct, que é uma estrutura de dados que armazena, o nome, pontuação e símbolo. Essa estrutura recebe duas instancias, jogador1 e jogador2. Seus dados vão ser armazenados ao decorrer do código.
+O programa começa perguntando o nome dos dois jogadores. O símbolo X e O são atribuídos respectivamente aos jogadores 1 e 2, as pontuações são armazenadas quando alguém vence uma partida.
+
 Após isso aparece um menu, onde será escolhido entre:
 1- Jogar
 2- Ver Ranking (pontuação dos jogadores)
