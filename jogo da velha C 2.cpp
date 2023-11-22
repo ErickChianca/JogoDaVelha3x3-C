@@ -11,10 +11,12 @@ struct Jogador {
 
 struct Jogador jogador1, jogador2;
 
-char tabuleiro[3][3];
+char **tabuleiro;
 
 void inicializarTabuleiro() {
+	tabuleiro = (char **)malloc(3 * sizeof(char *));
     for (int i = 0; i < 3; ++i) {
+    	tabuleiro[i] = (char *)malloc(3 * sizeof(char));
         for (int j = 0; j < 3; ++j) {
             tabuleiro[i][j] = ' ';
         }
